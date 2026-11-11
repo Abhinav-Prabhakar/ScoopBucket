@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
+  "version": "1.0.0",
+  "description": "Git, without the growl. A beginner-first Git CLI.",
+  "homepage": "https://github.com/Abhinav-Prabhakar/Meow",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Abhinav-Prabhakar/Meow/releases/download/v1.0.0/meow-git-x86_64-pc-windows-msvc.zip",
+      "hash": "eadc98a0fd78cf0d7fee1dba1673b03141fc7805da288c2251f58512ae104957"
+    }
+  },
+  "bin": "meow.exe",
+  "checkver": {
+    "github": "https://github.com/Abhinav-Prabhakar/Meow"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Abhinav-Prabhakar/Meow/releases/download/v$version/meow-git-x86_64-pc-windows-msvc.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
+}
