@@ -9,6 +9,7 @@ scoop bucket add abhinav https://github.com/Abhinav-Prabhakar/ScoopBucket
 
 | Package | What it is |
 |---|---|
+| `gap` | Typed actions for agents: CLI, inspector and MCP tooling. |
 | `meow` | Git, without the growl. A beginner-first Git CLI. |
 | `whatschedule` | Schedule WhatsApp Web messages from the terminal. |
 | `annas-archive-mcp` | An MCP server for searching and downloading books from Anna's Archive. |
